@@ -35,9 +35,34 @@ const Header = () => {
       </svg>
     </div>
     <div className={styles.input}>
-      <input type='search' name='search'/>
+      <input 
+      type='search' 
+      name='search'
+      placeholder='Search for anything' 
+      autoComplete='off'
+      onChange={()=> {}}
+      value = ''
+      />
     </div>
+
+      <div className={styles.box}></div>
     </form>
+
+
+    <div className={styles.account}>
+    <Link to={ROUTES.HOME} className= {styles.favourites}>
+      <svg className={styles['icon-fav']}>
+        <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#heart`}/>
+      </svg>
+    </Link>
+
+    <Link to={ROUTES.CART} className= {styles.cart}>
+      <svg className={styles['icon-fav']}>
+        <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#heart`}/>
+      </svg>
+    </Link>
+
+      </div>
     </div>
   </div>
   )
