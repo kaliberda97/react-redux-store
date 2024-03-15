@@ -57,7 +57,7 @@ const Header = () => {
     </Link>
 
     <Link to={ROUTES.CART} className= {styles.cart}>
-      <svg className={styles['icon-fav']}>
+      <svg className={styles['icon-cart']}>
         <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#heart`}/>
       </svg>
     </Link>
