@@ -10,6 +10,7 @@ const App = () => {
         <Header/>
 
 
+
 <div className="container">
     <Sidebar/>
     <AppRoutes/>
@@ -21,3 +22,6 @@ const App = () => {
     };
 
 export default App;
+
+
+{/* остановилась здесь  */}
