@@ -1,12 +1,25 @@
-import React from "react";
+import React  from "react";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 import AppRoutes from "../Routes/Routes";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Sidebar from "../Sidebar/Sidebar";
+import { getCategories } from "../../features/categories/categoriesSlice";
+
 
 const App = () => {
-    return (<div className="app">
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getCategories());
+    }, [dispatch]);
+
+
+
+
+return (<div className="app">
         <Header/>
 
 
