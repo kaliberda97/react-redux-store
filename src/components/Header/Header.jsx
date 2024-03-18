@@ -45,7 +45,7 @@ const Header = () => {
       />
     </div>
 
-      <div className={styles.box}></div>
+     {false && <div className={styles.box}></div>} 
     </form>
 
 
@@ -58,8 +58,9 @@ const Header = () => {
 
     <Link to={ROUTES.CART} className= {styles.cart}>
       <svg className={styles['icon-cart']}>
-        <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#heart`}/>
+        <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#bag`}/>
       </svg>
+      <span className={styles.count}>2</span>
     </Link>
 
       </div>
