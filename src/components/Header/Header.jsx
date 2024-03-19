@@ -9,6 +9,7 @@ import LOGO from '../../images/logo.svg'
 import AVATAR from '../../images/avatar.jpg'
 
 
+// остановилась здесь 
 
 
 const Header = () => {
