@@ -10,6 +10,7 @@ import AVATAR from '../../images/avatar.jpg'
 
 
 // остановилась здесь 
+// остановилась здесь  на 42.06
 
 
 const Header = () => {
