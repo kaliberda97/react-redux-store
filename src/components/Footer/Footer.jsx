@@ -46,3 +46,4 @@ const Footer = () => (
 export default Footer;
 
 // остановилась здесь 
+// остановилась здесь  на 67.
