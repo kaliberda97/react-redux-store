@@ -12,7 +12,9 @@ import App from "./components/App/App";
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <BrowserRouter>
-      <App />
+      <App /> 
     </BrowserRouter>
   </Provider>
 );
+
+// остановилась здесь
