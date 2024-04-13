@@ -9,5 +9,8 @@ export const store = configureStore({
     devTools : true,
   })
 
+// export default store
 
-  //начало здесь 
+// import { configureStore } from '@reduxjs/toolkit'
+// import categoriesSlice from './categories/categoriesSlice'
+// import cartSlice from './cart/cartSlice'
